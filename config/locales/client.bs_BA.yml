@@ -321,6 +321,10 @@ bs_BA:
       one: "Pogledajte %{count} novu ili ažuriranu temu"
       few: "Pogledajte %{count} nove ili ažurirane teme"
       other: "Pogledajte %{count} novih ili ažuriranih tema"
+    topic_count_unseen:
+      one: "Pogledajte %{count} novu ili ažuriranu temu"
+      few: "Pogledajte %{count} nove ili ažurirane teme"
+      other: "Pogledajte %{count} novih ili ažuriranih tema"
     topic_count_unread:
       one: "Pogledaj %{count} nepročitanu temu"
       few: "Pogledaj %{count} nepročitane teme"
@@ -3194,7 +3198,6 @@ bs_BA:
               description: "Administratori mogu vidjeti sve grupe."
             members_visibility_levels:
               title: "Ko može vidjeti članove ove grupe?"
-              description: "Administratori mogu vidjeti članove svih grupa."
             publish_read_state: "U grupnim porukama objavi stanje čitanja grupe"
           membership:
             automatic: Automatsko

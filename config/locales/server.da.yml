@@ -257,6 +257,7 @@ da:
   not_found: "Den anmodede URL eller ressource kunne ikke findes."
   invalid_access: "Du har ikke tilladelse til at se den anmodede ressource."
   authenticator_not_found: "Autentificeringsmetode findes ikke eller er deaktiveret."
+  authenticator_no_connect: "Denne godkendelsesudbyder tillader ikke forbindelse til en eksisterende forumkonto."
   invalid_api_credentials: "Du har ikke tilladelse til at se den ønskede ressource. API-brugernavnet eller -nøglen er ugyldig."
   provider_not_enabled: "Du har ikke tilladelse til at se den ønskede ressource. Godkendelsesudbyderen er ikke aktiveret."
   provider_not_found: "Du har ikke tilladelse til at se den ønskede ressource. Godkendelsesudbyderen findes ikke."
@@ -2950,8 +2951,12 @@ da:
     unauthorized: "Beklager, filen, som du forsøger at overføre er ikke godkendt (godkente filendelser: %{authorized_extensions})."
     pasted_image_filename: "Indsat billede"
     file_missing: "Beklager, Du skal vælge en fil at overføre."
+    failed: "Beklager, men din overførsel mislykkedes. Prøv venligst igen."
     png_to_jpg_conversion_failure_message: "Der opstod en fejl ved konvertering fra PNG til JPG."
     optimize_failure_message: "Der opstod en fejl under optimering af det overførte billede."
+    download_failure: "Hentning af filen fra den eksterne udbyder mislykkedes."
+    checksum_mismatch_failure: "Kontrolsummen af den fil du overførte stemmer ikke overens. Filens indhold kan have ændret sig under overførsel. Prøv venligst igen."
+    cannot_promote_failure: "Overførslen kan ikke fuldføres, den kan allerede være fuldført eller tidligere mislykkedes."
     attachments:
       too_large: "Beklager, men den fil du prøver at overføre er for stor (maksimumstørelsen er %{max_size_kb}KB)"
     images:

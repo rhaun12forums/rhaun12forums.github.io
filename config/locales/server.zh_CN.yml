@@ -3216,6 +3216,9 @@ zh_CN:
         您的帐户被论坛封禁至 %{suspended_till}。
 
         原因 - %{reason}
+    account_suspended_forever:
+      title: "帐户被封禁"
+      subject_template: "[%{email_prefix}] 您的帐户已被封禁"
     account_silenced:
       title: "帐户被禁言"
       subject_template: "[%{email_prefix}] 您的帐户已被禁言"
@@ -3223,6 +3226,9 @@ zh_CN:
         您的帐户被论坛禁言至 %{silenced_till}。
 
         原因 - %{reason}
+    account_silenced_forever:
+      title: "帐户被禁言"
+      subject_template: "[%{email_prefix}] 您的帐户已被禁言"
     account_exists:
       title: "帐户已存在"
       subject_template: "[%{email_prefix}] 帐户已存在"

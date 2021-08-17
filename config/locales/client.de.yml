@@ -314,6 +314,9 @@ de:
     topic_count_latest:
       one: "Zeige %{count} neues oder aktualisiertes Thema"
       other: "Zeige %{count} neue oder aktualisierte Themen"
+    topic_count_unseen:
+      one: "Zeige %{count} neues oder aktualisiertes Thema"
+      other: "Zeige %{count} neue oder aktualisierte Themen"
     topic_count_unread:
       one: "Zeige %{count} ungelesenes Thema"
       other: "Zeige %{count} ungelesene Themen"
@@ -3120,7 +3123,7 @@ de:
       one: "Benutzer"
       other: "Benutzer"
     category_title: "Kategorie"
-    history: "Verlauf, letzte 100 Überarbeitungen"
+    history_capped_revisions: "Verlauf, letzte 100 Überarbeitungen"
     changed_by: "von %{author}"
     raw_email:
       title: "Eingegangene E-Mail"
@@ -3609,7 +3612,6 @@ de:
               description: "Administratoren können alle Gruppen sehen."
             members_visibility_levels:
               title: "Wer kann die Mitglieder dieser Gruppe sehen?"
-              description: "Administratoren können die Mitglieder aller Gruppen sehen."
             publish_read_state: "In Gruppen-Nachrichten den Lesestatus anzeigen"
           membership:
             automatic: Automatisch

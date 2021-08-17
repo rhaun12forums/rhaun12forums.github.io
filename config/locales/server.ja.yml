@@ -3187,6 +3187,9 @@ ja:
         あなたは %{suspended_till} までフォーラムから凍結されました。
 
         理由 - %{reason}
+    account_suspended_forever:
+      title: "アカウントが凍結されました"
+      subject_template: "[%{email_prefix}] あなたのアカウントは凍結されました"
     account_silenced:
       title: "アカウントが投稿禁止にされました"
       subject_template: "[%{email_prefix}] あなたのアカウントは投稿禁止にされました"
@@ -3194,6 +3197,9 @@ ja:
         あなたは %{silenced_till} までフォーラムから投稿禁止にされました。
 
         理由 - %{reason}
+    account_silenced_forever:
+      title: "アカウントが投稿禁止にされました"
+      subject_template: "[%{email_prefix}] あなたのアカウントは投稿禁止にされました"
     account_exists:
       title: "アカウントはすでに存在します"
       subject_template: "[%{email_prefix}] アカウントはすでに存在します"

@@ -332,6 +332,10 @@ ro:
       one: "Un subiect nou sau actualizat."
       few: "%{count} subiecte noi sau actualizate."
       other: "%{count} de subiecte noi sau actualizate."
+    topic_count_unseen:
+      one: "Un subiect nou sau actualizat."
+      few: "%{count} subiecte noi sau actualizate."
+      other: "%{count} de subiecte noi sau actualizate."
     topic_count_unread:
       one: "Afișați %{count} cubiect necitit"
       few: "Afișați %{count} subiect necitit"

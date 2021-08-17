@@ -1963,7 +1963,7 @@ ko:
     default_other_skip_new_user_tips: "신규 사용자 온 보딩 팁 및 배지를 건너 뜁니다."
     default_other_like_notification_frequency: "기본적으로 좋아요에 사용자에게 알림"
     default_topics_automatic_unpin: "사용자가 기본적으로 하단에 도달하면 주제를 자동으로 고정 해제합니다."
-    default_categories_watching: "기본적으로 감시되는 카테고리 목록."
+    default_categories_watching: "기본적으로 검열되는 카테고리 목록."
     default_categories_tracking: "기본적으로 추적되는 카테고리 목록."
     default_categories_muted: "기본적으로 음소거 된 카테고리 목록."
     default_categories_watching_first_post: "각 새 주제의 첫 번째 게시물이 기본적으로 감시되는 카테고리 목록입니다."
@@ -2594,6 +2594,14 @@ ko:
     backup_succeeded:
       title: "백업 성공"
       subject_template: "백업 성공"
+      text_body_template: |
+        백업이 성공적으로 완료되었습니다.
+
+        [관리자 > 백업 섹션](%{base_url}/admin/backups)을 방문해 백업을 다운로드하세요.
+
+        로그는 다음과 같습니다:
+
+        %{logs}
     backup_failed:
       title: "백업 실패"
       subject_template: "백업에 실패했습니다."
@@ -4238,7 +4246,7 @@ ko:
       new_topics_unless_trust_level: "신뢰 수준이 낮은 사용자에게는 직원이 승인 한 주제가 있어야합니다. `approve_new_topics_unless_trust_level`을 참조하십시오."
       fast_typer: "새로운 사용자가 첫 번째 게시물을 의심스럽게 빠르거나 의심되는 봇 또는 스패머 동작을 입력했습니다. `min_first_post_typing_time`을 참조하십시오."
       auto_silence_regexp: "첫 번째 게시물이`auto_silence_first_post_regex` 설정과 일치하는 새 사용자입니다."
-      watched_word: "이 게시물에는 감시 단어가 포함되어 있습니다.  <a href='%{base_url}/admin/customize/watched_words'>감시 단어 목록</a>을 참조하십시오."
+      watched_word: "이 게시물에는 검열중인 단어가 포함되어 있습니다.  <a href='%{base_url}/admin/customize/watched_words'>검열 단어 목록</a>을 참조하십시오."
       staged: "단계별 사용자를위한 새로운 주제와 게시물은 직원의 승인을 받아야합니다. `approve_unless_staged`를 참조하십시오."
       category: "이 카테고리의 게시물은 직원의 수동 승인이 필요합니다. 카테고리 설정을 참조하십시오."
       must_approve_users: "모든 신규 사용자는 직원의 승인을 받아야합니다. `must_approve_users`를 참조하십시오."

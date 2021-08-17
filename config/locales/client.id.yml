@@ -266,6 +266,8 @@ id:
         no_value: "Lanjut menyunting"
     topic_count_latest:
       other: "Lihat %{count} topik baru atau diperbarui"
+    topic_count_unseen:
+      other: "Lihat %{count} topik baru atau diperbarui"
     topic_count_unread:
       other: "Lihat %{count} topik belum dibaca"
     topic_count_new:

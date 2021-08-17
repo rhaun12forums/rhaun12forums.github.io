@@ -301,6 +301,7 @@ it:
     copy_codeblock:
       copied: "copiato!"
     drafts:
+      label: "Bozze"
       resume: "Riprendi"
       remove: "Rimuovi"
       remove_confirmation: "Vuoi davvero eliminare questa bozza?"
@@ -312,6 +313,9 @@ it:
         yes_value: "Elimina"
         no_value: "Riprendi la modifica"
     topic_count_latest:
+      one: "Visualizza %{count} argomento nuovo o aggiornato"
+      other: "Visualizza %{count} argomenti nuovi o aggiornati."
+    topic_count_unseen:
       one: "Visualizza %{count} argomento nuovo o aggiornato"
       other: "Visualizza %{count} argomenti nuovi o aggiornati."
     topic_count_unread:
@@ -1098,7 +1102,10 @@ it:
         rejected_posts: "messaggi rifiutati"
       messages:
         inbox: "In arrivo"
+        latest: "Più recenti"
         sent: "Inviati"
+        unread: "Non letti"
+        new: "Nuovi"
         archive: "Archiviati"
         groups: "I Miei Gruppi"
         move_to_inbox: "Sposta nella posta in arrivo"
@@ -2010,7 +2017,7 @@ it:
         other: "<span class='multi-user'>%{username}, %{username2} e altri %{count}</span> %{description}"
       liked_consolidated_description:
         one: "ha messo \"mi piace\" a %{count} dei tuoi messaggi"
-        other: "hanno messo \"mi piace\" a %{count} dei tuoi messaggi"
+        other: "ha messo \"mi piace\" a %{count} dei tuoi messaggi"
       liked_consolidated: "<span>%{username}</span> %{description}"
       private_message: "<span>%{username}</span> %{description}"
       invited_to_private_message: "<p><span>%{username}</span> %{description}"
@@ -3123,7 +3130,7 @@ it:
       one: "utente"
       other: "utenti"
     category_title: "Categoria"
-    history: "Cronologia, ultime 100 revisioni"
+    history_capped_revisions: "Cronologia, ultime 100 revisioni"
     changed_by: "da %{author}"
     raw_email:
       title: "Email In Arrivo"
@@ -3614,7 +3621,6 @@ it:
               description: "Gli amministratori possono vedere tutti i gruppi."
             members_visibility_levels:
               title: "Chi può vedere i membri di questo gruppo?"
-              description: "Gli amministratori possono vedere i membri di tutti i gruppi."
             publish_read_state: "Pubblica lo stato di lettura del gruppo nei messaggi di gruppo"
           membership:
             automatic: Automatico
@@ -4530,6 +4536,7 @@ it:
         delete_all_posts: "Cancella tutti i messaggi"
         delete_posts_progress: "Cancellazione messaggi..."
         delete_posts_failed: "C'è stato un problema con la cancellazione dei messaggi."
+        post_edits: "Modifiche Messaggio"
         penalty_post_actions: "Cosa vorresti fare con il messaggio associato?"
         penalty_post_delete: "Elimina il messaggio"
         penalty_post_delete_replies: "Elimina il messaggio e tutte le sue risposte"
@@ -4586,6 +4593,7 @@ it:
         approve_success: "Utente approvato ed email inviata con istruzioni di attivazione."
         approve_bulk_success: "Riuscito! Tutti gli utenti selezionati sono stati approvati e notificati."
         time_read: "Tempo di lettura"
+        post_edits_count: "Modifiche Messaggio"
         anonymize: "Rendi Anonimo Utente "
         anonymize_confirm: "Sei SICURO di voler rendere anonimo questo account? Il nome utente e l'indirizzo email saranno modificati e saranno reimpostate tutte le informazioni del profilo."
         anonymize_yes: "Sì, rendi anonimo questo account"

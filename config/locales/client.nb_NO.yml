@@ -313,6 +313,9 @@ nb_NO:
     topic_count_latest:
       one: "Se %{count} nytt eller oppdatert emne"
       other: "Se %{count} nye eller oppdaterte emner"
+    topic_count_unseen:
+      one: "Se %{count} nytt eller oppdatert emne"
+      other: "Se %{count} nye eller oppdaterte emner"
     topic_count_unread:
       one: "Se %{count} ulest emne"
       other: "Se %{count} uleste emner"
@@ -3075,7 +3078,7 @@ nb_NO:
       one: "bruker"
       other: "brukere"
     category_title: "Kategori"
-    history: "Historikk, siste 100 revisjoner"
+    history_capped_revisions: "Historikk, siste 100 revisjoner"
     changed_by: "av %{author}"
     raw_email:
       title: "Innkommende e-post"

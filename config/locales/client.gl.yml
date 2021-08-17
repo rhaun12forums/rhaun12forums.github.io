@@ -306,6 +306,9 @@ gl:
     topic_count_latest:
       one: "Ver %{count} tema novo ou actualizado"
       other: "Ver %{count} temas novos ou actualizados"
+    topic_count_unseen:
+      one: "Ver %{count} tema novo ou actualizado"
+      other: "Ver %{count} temas novos ou actualizados"
     topic_count_unread:
       one: "Ver %{count} tema pendente"
       other: "Ver %{count} temas pendentes"
@@ -3491,7 +3494,6 @@ gl:
               description: "Os administradores poden ver todos os grupos."
             members_visibility_levels:
               title: "Quen pode ver os membros deste grupo?"
-              description: "Os administradores poden ver os membros de todos os grupos."
             publish_read_state: "Publicar nas mensaxes de grupo o estado de lectura de grupo"
           membership:
             automatic: Automático

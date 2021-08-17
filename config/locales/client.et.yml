@@ -284,6 +284,9 @@ et:
     topic_count_latest:
       one: "Vaata %{count} uut või uuendatud teemat"
       other: "Vaata %{count} uut või uuendatud teemat"
+    topic_count_unseen:
+      one: "Vaata %{count} uut või uuendatud teemat"
+      other: "Vaata %{count} uut või uuendatud teemat"
     topic_count_unread:
       one: "Vaata %{count} lugemata teemat"
       other: "Vaata %{count} lugemata teemat"

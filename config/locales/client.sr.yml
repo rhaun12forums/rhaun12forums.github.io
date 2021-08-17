@@ -331,6 +331,10 @@ sr:
       one: "Pregledajte %{count} novu ili ažuriranu temu"
       few: "Pregledajte %{count} nove ili ažurirane teme"
       other: "Pregledajte %{count} novih ili ažuriranih tema"
+    topic_count_unseen:
+      one: "Pregledajte %{count} novu ili ažuriranu temu"
+      few: "Pregledajte %{count} nove ili ažurirane teme"
+      other: "Pregledajte %{count} novih ili ažuriranih tema"
     topic_count_unread:
       one: "Pregledajte %{count} nepročitanu temu"
       few: "Pregledajte %{count} nepročitane teme"

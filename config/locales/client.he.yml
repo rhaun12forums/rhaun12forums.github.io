@@ -370,6 +370,11 @@ he:
       two: "הצגת %{count} נושאים חדשים או עדכניים"
       many: "הצגת %{count} נושאים חדשים או עדכניים"
       other: "הצגת %{count} נושאים חדשים או עדכניים"
+    topic_count_unseen:
+      one: "הצגת נושא %{count} חדש או עדכני"
+      two: "הצגת %{count} נושאים חדשים או עדכניים"
+      many: "הצגת %{count} נושאים חדשים או עדכניים"
+      other: "הצגת %{count} נושאים חדשים או עדכניים"
     topic_count_unread:
       one: "הצגת נושא %{count} שלא נקרא"
       two: "הצגת %{count} נושאים שלא נקראו"
@@ -1375,6 +1380,7 @@ he:
         not_connected: "(לא מחובר)"
         confirm_modal_title: "חיבור חשבון %{provider}"
         confirm_description:
+          disconnect: "חשבון %{provider} הקיים שלך ‚%{account_description}’ ינותק."
           account_specific: "החשבון שלך ‚%{account_description}’ ב־%{provider} ישמש לאימות."
           generic: "החשבון של אצל %{provider} ישמש לאימות."
       name:
@@ -1772,6 +1778,7 @@ he:
       disclaimer: "עצם הרשמתך מביעה את הסכמתך ל<a href='%{privacy_link}' target='blank'>מדיניות הפרטיות</a> ול<a href='%{tos_link}' target='blank'>תנאי השירות</a>."
       title: "יצירת חשבון משלך"
       failed: "משהו לא בסדר, אולי כבר קיימת כתובת דואר אלקטרוני כזו. נסו את קישור שכחתי סיסמה."
+      associate: "כבר יש לך חשבון? ניתן <a href='%{associate_link}'>להיכנס</a> כדי לקשר את חשבון ה־%{provider} שלך."
     forgot_password:
       title: "אתחול סיסמה"
       action: "שכחתי את ססמתי"
@@ -3384,7 +3391,7 @@ he:
       many: "משתמשים"
       other: "משתמשים"
     category_title: "קטגוריה"
-    history: "היסטוריה, 100 התיקונים האחרונים"
+    history_capped_revisions: "היסטוריה, 100 התיקונים האחרונים"
     changed_by: "מאת %{author}"
     raw_email:
       title: "דוא״ל נכנס"
@@ -3910,7 +3917,6 @@ he:
               description: "מנהלים יכולים לראות את כל הקבוצות."
             members_visibility_levels:
               title: "מי יכול לראות את חברי הקבוצה הזו?"
-              description: "מנהלים יכולים לראות את רשימות חברי כל הקבוצות."
             publish_read_state: "בהודעות קבוצתית לפרסם את מצב הקריאה של הקבוצה"
           membership:
             automatic: אוטומטי

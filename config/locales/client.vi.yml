@@ -275,6 +275,8 @@ vi:
         yes_value: "Hủy bỏ"
     topic_count_latest:
       other: "Xem %{count} chủ đề mới hoặc được cập nhật"
+    topic_count_unseen:
+      other: "Xem %{count} chủ đề mới hoặc được cập nhật"
     topic_count_unread:
       other: "Xem %{count} chủ đề chưa đọc"
     topic_count_new:
@@ -3213,7 +3215,6 @@ vi:
               description: "Quản trị viên có thể xem tất cả các nhóm."
             members_visibility_levels:
               title: "Ai có thể nhìn thấy thành viên của nhóm này?"
-              description: "Quản trị viên có thể thấy thành viên của tất cả các nhóm."
             publish_read_state: "Trên tin nhắn nhóm đăng trạng thái nhóm"
           membership:
             automatic: Tự động

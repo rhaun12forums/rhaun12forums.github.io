@@ -275,6 +275,7 @@ zh_CN:
     copy_codeblock:
       copied: "已复制！"
     drafts:
+      label: "草稿"
       resume: "恢复"
       remove: "移除"
       remove_confirmation: "确定要删除此草稿吗？"
@@ -286,6 +287,8 @@ zh_CN:
         yes_value: "舍弃"
         no_value: "恢复编辑"
     topic_count_latest:
+      other: "查看 %{count} 个新的或更新的话题"
+    topic_count_unseen:
       other: "查看 %{count} 个新的或更新的话题"
     topic_count_unread:
       other: "查看 %{count} 个未读话题"
@@ -1049,7 +1052,10 @@ zh_CN:
         rejected_posts: "被拒绝的帖子"
       messages:
         inbox: "收件箱"
+        latest: "最新"
         sent: "已发送"
+        unread: "未读"
+        new: "新"
         archive: "归档"
         groups: "我的群组"
         move_to_inbox: "移至收件箱"
@@ -1582,6 +1588,7 @@ zh_CN:
       disclaimer: "注册，即表示您同意<a href='%{privacy_link}' target='blank'>隐私政策</a>和<a href='%{tos_link}' target='blank'>服务条款</a>。"
       title: "创建您的帐户"
       failed: "出了点问题，可能此电子邮件已被注册，试试点击忘记密码链接"
+      associate: "已经有账户？ <a href='%{associate_link}'>登录</a> 以关联你的 %{provider} 账户。"
     forgot_password:
       title: "密码重置"
       action: "我忘记密码了"
@@ -2105,9 +2112,11 @@ zh_CN:
           other: "关闭新话题（%{count} 个）…"
         toggle: "切换话题批量选择"
         actions: "批量操作"
+        change_category: "设置分类"
         close_topics: "关闭话题"
         archive_topics: "归档话题"
         move_messages_to_inbox: "移至收件箱"
+        notification_level: "通知..."
         change_notification_level: "更改通知级别"
         choose_new_category: "为话题选择新类别："
         selected:
@@ -2124,6 +2133,7 @@ zh_CN:
           other: "进度：<strong>%{count}</strong> 个话题"
       none:
         unread: "您没有未读话题。"
+        unseen: "您没有未读话题。"
         new: "您没有新话题。"
         read: "您还没有阅读任何话题。"
         posted: "您尚未在任何话题中发帖。"
@@ -2140,6 +2150,7 @@ zh_CN:
         read: "没有更多已读话题了。"
         new: "没有更多新话题了。"
         unread: "没有更多未读话题了。"
+        unseen: "没有更多未读主题了。"
         category: "没有更多%{category}话题了。"
         tag: "没有更多%{tag}话题了。"
         top: "没有更多热门话题了。"
@@ -2365,6 +2376,7 @@ zh_CN:
         open: "打开话题"
         close: "关闭话题"
         multi_select: "选择帖子…"
+        slow_mode: "设置慢速模式..."
         timed_update: "设置话题计时器…"
         pin: "置顶话题…"
         unpin: "取消置顶话题…"
@@ -2373,6 +2385,7 @@ zh_CN:
         invisible: "设为取消公开"
         visible: "设为公开"
         reset_read: "重置阅读数据"
+        make_public: "设为公开话题..."
         make_private: "设为个人消息"
         reset_bump_date: "重置提升日期"
       feature:
@@ -2644,6 +2657,8 @@ zh_CN:
         rebake: "重新构建 HTML"
         publish_page: "页面发布"
         unhide: "取消隐藏"
+        change_owner: "更改所有者..."
+        grant_badge: "授予徽章..."
         lock_post: "锁定帖子"
         lock_post_description: "阻止发帖人编辑此帖子"
         unlock_post: "解锁帖子"
@@ -2834,6 +2849,7 @@ zh_CN:
       position_disabled: "类别将按照活动顺序显示。要控制类别在列表中的顺序，"
       position_disabled_click: '请启用“fixed category positions”设置。'
       minimum_required_tags: "话题中所需的最少标签数："
+      default_slow_mode: '为该分类中的新主题启用“慢速模式”。'
       parent: "父类别"
       num_auto_bump_daily: "每天自动顶贴的开放话题的数量："
       navigate_to_first_post_after_read: "阅读话题后导航到第一个帖子"
@@ -2989,7 +3005,7 @@ zh_CN:
     users_lowercase:
       other: "用户"
     category_title: "类别"
-    history: "历史记录，最近 100 次修订"
+    history_capped_revisions: "历史记录，最近 100 次修订"
     changed_by: "作者 %{author}"
     raw_email:
       title: "传入电子邮件"
@@ -3017,6 +3033,9 @@ zh_CN:
         help: "您当前正在关注或跟踪，具有未读帖子的话题"
         lower_title_with_count:
           other: "%{count} 未读"
+      unseen:
+        title: "未读"
+        lower_title: "未读"
       new:
         lower_title_with_count:
           other: "%{count} 新"
@@ -3287,6 +3306,7 @@ zh_CN:
       topics:
         none:
           unread: "您没有未读话题。"
+          unseen: "您没有未读话题。"
           new: "您没有新话题。"
           read: "您还没有阅读任何话题。"
           posted: "您尚未在任何话题中发帖。"
@@ -3462,7 +3482,7 @@ zh_CN:
               description: "管理员可以看到所有群组。"
             members_visibility_levels:
               title: "谁可以看到此群组的成员？"
-              description: "管理员可以看到所有群组的成员。"
+              description: "管理员可以查看所有组的成员。 群组标识对所有用户可见。"
             publish_read_state: "在群组消息中发布群组阅读状态"
           membership:
             automatic: 自动
@@ -4373,6 +4393,7 @@ zh_CN:
         delete_all_posts: "删除所有帖子"
         delete_posts_progress: "正在删除帖子…"
         delete_posts_failed: "删除帖子时出现问题。"
+        post_edits: "帖子编辑"
         penalty_post_actions: "您想对关联帖子做什么？"
         penalty_post_delete: "删除帖子"
         penalty_post_delete_replies: "删除帖子 + 任何回复"
@@ -4429,6 +4450,7 @@ zh_CN:
         approve_success: "用户已被批准，包含激活说明的电子邮件已发送。"
         approve_bulk_success: "成功！所有选定用户已被批准并通知。"
         time_read: "阅读时间"
+        post_edits_count: "帖子编辑"
         anonymize: "对用户进行匿名化处理"
         anonymize_confirm: "确定要对此帐户进行匿名化处理吗？这将更改用户名和电子邮件，并重置所有个人资料信息。"
         anonymize_yes: "是，对此帐户进行匿名化处理"

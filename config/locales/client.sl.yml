@@ -355,6 +355,11 @@ sl:
       two: "Poglej %{count} novi ali posodobljeni temi"
       few: "Poglej %{count} nove ali posodobljene teme"
       other: "Poglej %{count} novih ali posodobljenih tem"
+    topic_count_unseen:
+      one: "Poglej %{count} novo ali posodobljeno temo"
+      two: "Poglej %{count} novi ali posodobljeni temi"
+      few: "Poglej %{count} nove ali posodobljene teme"
+      other: "Poglej %{count} novih ali posodobljenih tem"
     topic_count_unread:
       one: "Poglej %{count} neprebrano temo"
       two: "Poglej %{count} neprebrani temi"

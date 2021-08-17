@@ -265,6 +265,7 @@ sv:
   not_found: "Den efterfrågade URL:en eller resursen kan inte hittas."
   invalid_access: "Du har inte behörighet att visa den efterfrågade resursen."
   authenticator_not_found: "Autentiseringsmetod finns inte eller har inaktiverats."
+  authenticator_no_connect: "Denna autentiseringsleverantör tillåter inte anslutning till ett befintligt forumkonto."
   invalid_api_credentials: "Du har inte behörighet att se den begärda resursen. API-användarnamnet eller -nyckeln är ogiltig(t)."
   provider_not_enabled: "Du har inte behörighet att se den begärda resursen. Autentiseringsleverantören är inte aktiverad."
   provider_not_found: "Du har inte behörighet att se den begärda resursen. Autentiseringsleverantören finns inte."

@@ -3186,6 +3186,9 @@ it:
         Sei stato sospeso dal forum fino a %{suspended_till}.
 
         Motivo: %{reason}
+    account_suspended_forever:
+      title: "Account Sospeso"
+      subject_template: "[%{email_prefix}] Il tuo account è stato sospeso"
     account_silenced:
       title: "Account Silenziato"
       subject_template: "[%{email_prefix}] Il tuo account è stato silenziato"
@@ -3193,6 +3196,9 @@ it:
         Sei stato silenziato nel forum fino a %{silenced_till}.
 
         Motivo: %{reason}
+    account_silenced_forever:
+      title: "Account Silenziato"
+      subject_template: "[%{email_prefix}] Il tuo account è stato silenziato"
     account_exists:
       title: "L'account esiste già"
       subject_template: "[%{email_prefix}] L'account esiste già"

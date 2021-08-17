@@ -311,6 +311,9 @@ hu:
     topic_count_latest:
       one: "Nézzen meg %{count} új vagy frissített témát"
       other: "Nézzen meg %{count} új vagy frissített témát"
+    topic_count_unseen:
+      one: "Nézzen meg %{count} új vagy frissített témát"
+      other: "Nézzen meg %{count} új vagy frissített témát"
     topic_count_unread:
       one: "Nézzen meg %{count} olvasatlan témát"
       other: "Nézzen meg %{count} olvasatlan témát"

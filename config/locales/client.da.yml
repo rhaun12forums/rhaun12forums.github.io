@@ -315,6 +315,9 @@ da:
     topic_count_latest:
       one: "Se %{count} nyt eller opdateret emne"
       other: "Se %{count} nye eller opdaterede emner"
+    topic_count_unseen:
+      one: "Se %{count} nyt eller opdateret emne"
+      other: "Se %{count} nye eller opdaterede emner"
     topic_count_unread:
       one: "Se %{count} ulæst emne"
       other: "Se %{count} ulæste emner"
@@ -907,6 +910,7 @@ da:
           all: "Alle"
           read: "Læste"
           unread: "Ulæste"
+          unseen: "Usete"
         ignore_duration_title: "Ignorer Bruger"
         ignore_duration_username: "Brugernavn"
         ignore_duration_when: "Varighed:"
@@ -1083,6 +1087,7 @@ da:
         rejected_posts: "afviste indlæg"
       messages:
         inbox: "Indbakke"
+        personal: "Personlige"
         latest: "Seneste"
         sent: "Sendt"
         unread: "Ulæste"
@@ -1251,6 +1256,7 @@ da:
         not_connected: "(ikke forbundet)"
         confirm_modal_title: "Forbind %{provider}-konto"
         confirm_description:
+          disconnect: "Din eksisterende %{provider} konto '%{account_description}' vil blive frakoblet."
           account_specific: "Din %{provider}-konto '%{account_description}' vil blive brugt til godkendelse."
           generic: "Din %{provider}-konto vil blive brugt til godkendelse."
       name:
@@ -1625,6 +1631,7 @@ da:
       disclaimer: "Ved at registrere dig accepterer du <a href='%{privacy_link}' target='blank'>Privatlivsbetingelser</a> og <a href='%{tos_link}' target='blank'>servicevilkårene</a> ."
       title: "Opret din konto"
       failed: "Noget gik galt. Måske er e-mail-adressen allerede registreret – prøv “Jeg har glemt min adgangskode”-linket"
+      associate: "Har du allerede en konto? <a href='%{associate_link}'>Log ind</a> for at linke din %{provider} konto."
     forgot_password:
       title: "Nulstil kodeord"
       action: "Jeg har glemt min adgangskode"
@@ -2179,6 +2186,7 @@ da:
           other: "Fremskridt: <strong>%{count}</strong> emner"
       none:
         unread: "Du har ingen ulæste emner."
+        unseen: "Du har ingen useete emner."
         new: "Du har ingen nye emner."
         read: "Du har ikke læst nogen emner endnu."
         posted: "Du har ikke skrevet nogen indlæg endnu."
@@ -2195,6 +2203,7 @@ da:
         read: "Der er ikke flere læste emner."
         new: "Der er ikke flere nye emner."
         unread: "Der er ikke flere ulæste emner."
+        unseen: "Der er ikke flere usete emner."
         category: "Der er ikke flere emner i kategorien %{category}."
         tag: "Der er ikke flere %{tag} emner."
         top: "Der er ikke flere top emner"
@@ -3079,7 +3088,7 @@ da:
       one: "bruger"
       other: "brugere"
     category_title: "Kategori"
-    history: "Historik, seneste 100 revisioner"
+    history_capped_revisions: "Historik, seneste 100 revisioner"
     changed_by: "af %{author}"
     raw_email:
       title: "Indgående e-mail"
@@ -3110,6 +3119,9 @@ da:
         lower_title_with_count:
           one: "%{count} ulæst"
           other: "%{count} ulæste"
+      unseen:
+        title: "Usete"
+        lower_title: "usete"
       new:
         lower_title_with_count:
           one: "%{count} ny"
@@ -3384,6 +3396,7 @@ da:
       topics:
         none:
           unread: "Du har ingen ulæste emner."
+          unseen: "Du har ingen useete emner."
           new: "Du har ingen nye emner."
           read: "Du har ikke læst nogen emner endnu."
           posted: "Du har ikke oprettet nogen emner endnu."
@@ -3559,7 +3572,6 @@ da:
               description: "Administratorer kan se alle grupper."
             members_visibility_levels:
               title: "Hvem kan se medlemmer for denne gruppe?"
-              description: "Admins kan se medlemmer af alle grupper."
             publish_read_state: "På gruppemeddelelser offentliggør gruppens læsetilstand"
           membership:
             automatic: Automatisk
@@ -4467,6 +4479,7 @@ da:
         delete_posts_progress: "Sletter indlæg ..."
         delete_posts_failed: "Der opstod et problem med at slette indlægene."
         post_edits: "Indlægs Redigeringer"
+        view_edits: "Vis Redigeringer"
         penalty_post_actions: "Hvad vil du gøre med det tilknyttede indlæg?"
         penalty_post_delete: "Slet indlægget"
         penalty_post_delete_replies: "Slet indlægget + eventuelle svar"
@@ -4768,7 +4781,7 @@ da:
       badges:
         title: Emblemer
         new_badge: Nyt Emblem
-        new: Nye
+        new: Ny
         name: Navn
         badge: Emblem
         display_name: Vist navn

@@ -316,6 +316,9 @@ sv:
     topic_count_latest:
       one: "Visa %{count} nytt eller uppdaterat ämne"
       other: "Visa %{count} nya eller uppdaterade ämnen"
+    topic_count_unseen:
+      one: "Visa %{count} nytt eller uppdaterat ämne"
+      other: "Visa %{count} nya eller uppdaterade ämnen"
     topic_count_unread:
       one: "Visa %{count} oläst ämne"
       other: "Visa %{count} olästa ämnen"
@@ -925,6 +928,7 @@ sv:
           all: "Alla"
           read: "Lästa"
           unread: "Olästa"
+          unseen: "Osedda"
         ignore_duration_title: "Ignorera användare"
         ignore_duration_username: "Användarnamn"
         ignore_duration_when: "Varaktighet:"
@@ -1273,6 +1277,7 @@ sv:
         not_connected: "(inte kopplade)"
         confirm_modal_title: "Koppla %{provider}-konto"
         confirm_description:
+          disconnect: "Ditt befintliga %{provider} -konto '%{account_description}' kommer att kopplas bort."
           account_specific: "Ditt %{provider}-konto '%{account_description}' kommer att användas för autentisering."
           generic: "Ditt %{provider}-konto kommer att användas för autentisering."
       name:
@@ -1653,6 +1658,7 @@ sv:
       disclaimer: "Genom att registrera dig godkänner du <a href='%{privacy_link}' target='blank'>integritetspolicyn</a> och <a href='%{tos_link}' target='blank'>användarvillkoren</a>."
       title: "Skapa ditt konto"
       failed: "Något gick fel, kanske är denna e-postadress redan registrerad, prova länken Glömt lösenord"
+      associate: "Har du redan ett konto? <a href='%{associate_link}'>Logga in</a> för att länka ditt %{provider}-konto."
     forgot_password:
       title: "Beställ nytt lösenord"
       action: "Jag har glömt mitt lösenord"
@@ -2223,6 +2229,7 @@ sv:
           other: "Förlopp: <strong>%{count}</strong> ämnen"
       none:
         unread: "Du har inga olästa ämnen."
+        unseen: "Du har inga osedda ämnen."
         new: "Du har inga nya ämnen."
         read: "Du har inte läst några ämnen ännu."
         posted: "Du har inte postat i några ämnen ännu."
@@ -2239,6 +2246,7 @@ sv:
         read: "Det finns inga fler lästa ämnen."
         new: "Det finns inga fler nya ämnen."
         unread: "Det finns inga fler olästa ämnen."
+        unseen: "Det finns inga fler osedda ämnen."
         category: "Det finns inga fler ämnen i %{category}."
         tag: "Det finns inga fler %{tag}-ämnen."
         top: "Det finns inga fler toppämnen."
@@ -3140,7 +3148,8 @@ sv:
       one: "användare"
       other: "användare"
     category_title: "Kategori"
-    history: "Historik, senaste 100 versionerna"
+    history_capped_revisions: "Historik, senaste 100 versionerna"
+    history: "Historik"
     changed_by: "av %{author}"
     raw_email:
       title: "Inkommande e-post"
@@ -3171,6 +3180,9 @@ sv:
         lower_title_with_count:
           one: "%{count} oläst"
           other: "%{count} olästa"
+      unseen:
+        title: "Osedda"
+        lower_title: "osedda"
       new:
         lower_title_with_count:
           one: "%{count} ny"
@@ -3455,6 +3467,7 @@ sv:
       topics:
         none:
           unread: "Du har inga olästa ämnen."
+          unseen: "Du har inga osedda ämnen."
           new: "Du har inga nya ämnen."
           read: "Du har inte lästa några ämnen ännu."
           posted: "Du har inte skrivit i några ämnen ännu."
@@ -3631,7 +3644,7 @@ sv:
               description: "Administratörer kan se alla grupper."
             members_visibility_levels:
               title: "Vem kan se denna grupps medlemmar?"
-              description: "Administratörer kan se medlemmar i alla grupper."
+              description: "Administratörer kan se medlemmar av alla grupper. Underikonen är synlig för alla användare."
             publish_read_state: "För gruppmeddelanden, publicera gruppens lästillstånd"
           membership:
             automatic: Automatisk
